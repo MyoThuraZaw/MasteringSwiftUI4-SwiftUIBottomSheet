@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30633E52949E3A5009E98C8 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30633E42949E3A5009E98C8 /* RestaurantDetailView.swift */; };
 		F4ECFA2628B3358300866B1D /* SwiftUIBottomSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECFA2528B3358300866B1D /* SwiftUIBottomSheetApp.swift */; };
 		F4ECFA2828B3358300866B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECFA2728B3358300866B1D /* ContentView.swift */; };
 		F4ECFA2A28B3358400866B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ECFA2928B3358400866B1D /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E30633E42949E3A5009E98C8 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RestaurantDetailView.swift; path = ../../../../Pictures/Xnip/RestaurantDetailView.swift; sourceTree = "<group>"; };
 		F4ECFA2228B3358300866B1D /* SwiftUIBottomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBottomSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4ECFA2528B3358300866B1D /* SwiftUIBottomSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBottomSheetApp.swift; sourceTree = "<group>"; };
 		F4ECFA2728B3358300866B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				F4ECFA3328B3359100866B1D /* Model */,
 				F4ECFA2528B3358300866B1D /* SwiftUIBottomSheetApp.swift */,
 				F4ECFA2728B3358300866B1D /* ContentView.swift */,
+				E30633E42949E3A5009E98C8 /* RestaurantDetailView.swift */,
 				F4ECFA2928B3358400866B1D /* Assets.xcassets */,
 				F4ECFA2B28B3358400866B1D /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30633E52949E3A5009E98C8 /* RestaurantDetailView.swift in Sources */,
 				F4ECFA2828B3358300866B1D /* ContentView.swift in Sources */,
 				F4ECFA2628B3358300866B1D /* SwiftUIBottomSheetApp.swift in Sources */,
 				F4ECFA3528B3359E00866B1D /* Restaurant.swift in Sources */,

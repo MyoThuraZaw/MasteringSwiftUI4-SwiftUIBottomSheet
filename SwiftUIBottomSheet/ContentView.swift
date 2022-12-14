@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var selectedRestaurant: Restaurant?
+	@State private var selectedDent: PresentationDetent = .medium
+	
     var body: some View {
         NavigationStack {
             List {
                 ForEach(restaurants) { restaurant in
                     BasicImageRow(restaurant: restaurant)
+						.onTapGesture {
+							self.selectedRestaurant  = restaurant
+						}
                 }
             }
-            .listStyle(.plain)
-            
-            .navigationTitle("Restaurants")
+			.listStyle(.plain)
+			.navigationTitle("Restaurants")
         }
+		.sheet(item: $selectedRestaurant) { restaurant in
+			RestaurantDetailView(restaurant: restaurant)
+				.presentationDetents([.medium, .large, .height(200), .fraction(0.1)], selection: $selectedDent)
+				.presentationDragIndicator(.hidden)
+		}
     }
 }
 
